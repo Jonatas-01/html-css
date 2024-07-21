@@ -61,6 +61,7 @@ h1{
 .ingredients-hamburger > h4{
     padding-left: 10px;
     margin: 10px 0 0 0;
+    font-weight: 600;
 }
 
 .ingredients-hamburger > ul{
@@ -77,6 +78,7 @@ h1{
 .instructions-hamburger > h4{
     padding-left: 10px;
     margin: 10px 0 0 0;
+    font-weight: 600;
 }
 
 .instructions-hamburger > ul{
@@ -93,6 +95,7 @@ h1{
 .serving-hamburger > h4{
     padding-left: 10px;
     margin: 10px 0 0 0;
+    font-weight: 600;
 }
 
 .serving-hamburger > ul{
@@ -115,6 +118,22 @@ h1{
     padding-left: 10px;
 }
 
-.nutritional-hamburger > table{
-    padding-left: 10px;
+td{
+    border-bottom: 1px solid rgb(182, 182, 182);
+    padding: 10px;
+}
+
+.first{
+    /* padding-left: 18px; */
+    width: 50vw;
+}
+
+.second{
+    color: hsl(14, 45%, 36%);
+    width: 50vw;
+}
+
+table{
+    padding: 10px;
+    border-collapse: collapse;
 }
