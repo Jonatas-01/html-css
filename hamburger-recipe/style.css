@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #17ae42e0;
+    font-family: "Outfit", sans-serif;
+}
+
+.main-div-hamburger{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 60px;
+    width: 50vw;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+header > img{
+    width: 35vw;
+    align-self: center;
+}
+
+h1, h3{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.preparation-time-hamburger{
+    background-color: #e60f0f8f;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.preparation-time-hamburger > h3{
+    font-weight: 600;
+    padding-left: 10px;
+    color: #3f1f46;
+}
+
+.ingredients-hamburger > h3{
+    color: hsl(14, 45%, 36%);
+    font-size: x-large;
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+
+.ingredients-hamburger > h4{
+    padding-left: 10px;
+    margin: 10px 0 0 0;
+}
+
+.ingredients-hamburger > ul{
+    margin-top: 8px;
+}
+
+.instructions-hamburger > h3{
+    color: hsl(14, 45%, 36%);
+    font-size: x-large;
+    margin-bottom: 0;
+    padding-left: 10px;    
+}
+
+.instructions-hamburger > h4{
+    padding-left: 10px;
+    margin: 10px 0 0 0;
+}
+
+.instructions-hamburger > ul{
+    margin-top: 8px;
+}
+
+.serving-hamburger > h3{
+    color: hsl(14, 45%, 36%);
+    font-size: x-large;
+    margin-bottom: 0;
+    padding-left: 10px; 
+}
+
+.serving-hamburger > h4{
+    padding-left: 10px;
+    margin: 10px 0 0 0;
+}
+
+.serving-hamburger > ul{
+    margin-top: 8px;
+}
+
+.serving-hamburger > p{
+    padding-left: 10px;
+}
+
+.nutritional-hamburger > h3{
+    color: hsl(14, 45%, 36%);
+    font-size: x-large;
+    margin-bottom: 0;
+    padding-left: 10px; 
+}
+
+.nutritional-hamburger > p{
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+.nutritional-hamburger > table{
+    padding-left: 10px;
+}
