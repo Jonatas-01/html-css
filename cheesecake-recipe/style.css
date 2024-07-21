@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body{
+    font-family: "Outfit", sans-serif;
+    background: #f08e767e;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+.main-div{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: whitesmoke;
+    width: 50vw;
+    border-radius: 25px;
+    padding: 20px;
+    
+}
+
+h1, h3{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header h1{
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.cheesecakeimg{
+    width: 35vw;
+    align-self: center;
+}
+
+.preparation-time{
+    padding: 10px;
+    background: #ac66b344;
+    border-radius: 15px;
+}
+
+.preparation-time > h3{
+    font-weight: 600;
+    padding-left: 10px;
+    color: #3f1f46;
+}
+
+.ingredients > h3{
+    padding-left: 10px;
+    color: hsl(14, 45%, 36%);
+    font-size: x-large;
+    margin-bottom: 0;
+}
+
+.instructions > h3{
+    padding-left: 10px;
+    color: hsl(14, 45%, 36%);
+    font-size: x-large;
+    margin-bottom: 0;
+}
+
+.serving > h3{
+    padding-left: 10px;
+    color: hsl(14, 45%, 36%);
+    font-size: x-large;
+    margin-bottom: 0;
+}
+
+.serving > p{
+    padding-left: 10px;
+    margin-top: 0;
+}
+
+.nutrients > h3{
+    padding-left: 10px;
+    color: hsl(14, 45%, 36%);
+    font-size: x-large;
+    margin-bottom: 0;
+}
+
+.nutrients > p{
+    padding-left: 10px;
+    margin-top: 0;
+}
+
+li{
+    margin-bottom: 5px;
+}

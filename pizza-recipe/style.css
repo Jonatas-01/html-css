@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body{
+    font-family: "Outfit", sans-serif;
+    background: #BA68C8;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+h1, h3{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main-pizza-div{
+    background: whitesmoke;
+    display: block;
+    flex-direction: column;
+    width: 50vw;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+header img{
+    width: 35vw;
+    align-self: center;
+}
+
+h1{
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.preparation-time-pizza{
+    background: #e08b29d3;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.preparation-time-pizza > h3{
+    font-weight: 600;
+    padding-left: 10px;
+    color: #3f1f46;
+}
+
+.ingredients-pizza > h3{
+    padding-left: 10px;
+    color: hsl(14, 45%, 36%);
+    font-size: x-large;
+    margin-bottom: 0;
+}
+
+.ingredients-pizza > h4{
+    padding-left: 10px;
+    margin-bottom: 0;
+    margin: 10px;
+}
+
+.ingredients-pizza > ul{
+    margin-top: 8px;
+}
+
+.instructions-pizza > h3{
+    padding-left: 10px;
+    color: hsl(14, 45%, 36%);
+    font-size: x-large;
+    margin-bottom: 0;
+}
+
+.instructions-pizza > h4{
+    padding-left: 10px;
+    margin-bottom: 0;
+    margin: 10px;
+}
+
+.serving-pizza h3{
+    padding-left: 10px;
+    color: hsl(14, 45%, 36%);
+    font-size: x-large;
+    margin-bottom: 0;
+}
+
+.serving-pizza > p{
+    margin-top: 4px;
+    padding-left: 10px;
+}
+
+.nutrition-pizza > h3{
+    padding-left: 10px;
+    color: hsl(14, 45%, 36%);
+    font-size: x-large;
+    margin-bottom: 0;
+}
+
+.nutrition-pizza > p{
+    margin-top: 4px;
+    padding-left: 10px;
+}
