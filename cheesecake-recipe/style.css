@@ -115,3 +115,20 @@ table{
     padding: 10px;
     border-collapse: collapse;
 }
+
+@media only screen and (max-width: 1200px){
+    .main-div{
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .main-div{
+        width: 100%;
+    }
+
+    body{
+        padding: 8px;
+    }
+}
